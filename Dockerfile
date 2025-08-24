@@ -1,5 +1,5 @@
 # Use a specific Bun version for reproducibility
-FROM oven/bun AS base
+FROM oven/bun:canary-alpine AS base
 
 WORKDIR /app
 
